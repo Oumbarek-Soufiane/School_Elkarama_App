@@ -1,0 +1,72 @@
+.page_title {
+  padding: 15px;
+  background: #f6f9ff;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.page_title h4 {
+  margin-bottom: 0;
+  margin-top: 2px;
+  color: #6f42c1;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.page_title .breadcrumb {
+  margin-top: 4px;
+}
+
+.page_title .breadcrumb li .a {
+  text-decoration: none;
+  color: #828690;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.page_title .breadcrumb li.active .a {
+  color: #6f42c1;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: #899bbd;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.breadcrumb a {
+  color: #899bbd;
+  transition: color 0.3s;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb a:hover {
+  color: #51678f;
+}
+
+.breadcrumb .breadcrumb_item::before {
+  content: "/";
+  margin: 0 8px;
+  color: #899bbd;
+}
+
+.breadcrumb .breadcrumb_item:first-child::before {
+  content: "";
+  margin: 0;
+}
+
+.breadcrumb .active {
+  color: #51678f;
+  font-weight: 600;
+}

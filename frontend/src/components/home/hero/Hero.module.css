@@ -1,0 +1,43 @@
+.hero_container {
+    font-family: var(--alkarama-font-primary);
+}
+
+.hero_title {
+    font-size: 35px;
+    color: var(--alkarama-primary-color);
+    font-weight: bold;
+}
+
+.hero_sub_title {
+    font-size: 28px;
+    color: var(--alkarama-tertiary-color);
+}
+
+.hero_text {
+    font-size: 18px;
+    text-align: justify;
+    color: var(--alkarama-black);
+}
+
+.hero_img_container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.hero_img {
+    transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -ms-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+}
+
+.hero_img:hover {
+    transform: scale(1.2);
+}

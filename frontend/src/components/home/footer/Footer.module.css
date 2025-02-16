@@ -1,0 +1,43 @@
+.footer_container {
+  background-color: var(--alkarama-white);
+  padding: 30px;
+}
+
+.footer_title {
+  color: var(--alkarama-primary-color);
+  font-family: var(--alkarama-font-primary);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer_text {
+  color: var(--alkarama-black);
+  font-family: var(--alkarama-font-primary);
+  font-size: 16px;
+}
+
+.footer_link {
+  text-decoration: none;
+}
+
+.social_icon {
+  margin-right: 10px;
+  color: var(--alkarama-primary-color);
+}
+
+.newsletter_input {
+  width: 100%;
+  border: 1px solid var(--alkarama-primary-color);
+  border-radius: 8px;
+  padding: 8px;
+  color: var(--alkarama-black);
+  background-color: transparent;
+}
+
+.newsletter_button {
+  margin-left: 10px;
+}
+
+hr {
+  border: 1px solid var(--alkarama-primary-color);
+}

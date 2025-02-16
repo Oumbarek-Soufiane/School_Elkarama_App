@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: var(--alkarama-black);
+    text-align: left !important;
+    font-family: var(--alkarama-font-primary);
+}
+
+.input {
+    max-width: 100%;
+    padding: 8px;
+    border: 2px solid var(--alkarama-primary-color);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--alkarama-font-secondary);
+    background: #FFF;
+}
+
+.input:focus {
+    outline: none;
+    border-color: var(--alkarama-secondary-color);
+    box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+}
+
+.error_message {
+    color: #721c24;
+}

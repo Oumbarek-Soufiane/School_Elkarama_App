@@ -1,0 +1,23 @@
+.main {
+    margin-top: 60px;
+    padding: 20px 30px;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+@media (max-width: 1199px) {
+    .main {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main.open {
+        margin-left: 300px;
+        max-width: calc(100% - 300px);
+    }
+    .main {
+        margin-left: 0; 
+        max-width:100%
+    }
+}

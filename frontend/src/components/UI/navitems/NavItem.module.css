@@ -1,0 +1,108 @@
+.nav_item {
+    margin-bottom: 8px;
+}
+
+.nav_link {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--alkarama-white);
+    transition: background 0.3s, color 0.3s;
+    background: var(--alkarama-primary-color);
+    padding: 10px 15px;
+    border-radius: 4px;
+    gap: 1rem;
+    text-decoration: none;
+    -webkit-transition: background 0.3s, color 0.3s;
+    -moz-transition: background 0.3s, color 0.3s;
+    -ms-transition: background 0.3s, color 0.3s;
+    -o-transition: background 0.3s, color 0.3s;
+}
+
+.nav_link.collapsed {
+    color: var(--alkarama-secondary-color);
+    background: #f6f9ff;
+}
+
+.nav_link:hover {
+    color: var(--alkarama-secondary-color);
+    background: #f6f9ff;
+}
+
+.chevronDown {
+    margin-left: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.nav_link:not(.collapsed) .chevronDown {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.nav_link.expanded {
+    color: var(--alkarama-primary-color);
+    background: #f6f9ff;
+}
+
+.nav_link.expanded .i {
+    color: var(--alkarama-primary-color);
+}
+
+.nav_link.collapsed {
+    color: var(--alkarama-primary-color);
+    background: #f6f9ff;
+}
+
+.nav_link.collapsed .i {
+    color: #899bbd;
+}
+
+.nav_content {
+    padding: 5px 0 0 0;
+    margin-top: -10px;
+    list-style: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    background-color: #f6f9ff;
+    -webkit-transition: max-height 0.5s ease;
+    -moz-transition: max-height 0.5s ease;
+    -ms-transition: max-height 0.5s ease;
+    -o-transition: max-height 0.5s ease;
+}
+
+.nav_content.show {
+    max-height: 500px; 
+}
+
+.sub_link {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--alkarama-secondary-color);
+    transition: color 0.3s;
+    padding: 10px 0 0px 20px;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+.sub_icon {
+    font-size: 10px;
+    margin-right: 8px;
+    line-height: 0;
+    border-radius: 50%;
+}
+
+.sub_link:hover,
+.sub_link.active {
+    color: var(--alkarama-primary-color);
+}
+
+.sub_link.active .sub_icon {
+    background-color: var(--alkarama-primary-color);
+}

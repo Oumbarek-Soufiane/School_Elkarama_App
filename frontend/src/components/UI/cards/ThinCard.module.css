@@ -1,0 +1,29 @@
+.thin_card {
+    padding: 15px;
+    background: #f6f9ff;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+    box-shadow: 0px 6px 24px 0px rgba(53, 55, 81, 0.06);
+    padding: 15px;
+  }
+  
+  .thin_card_header {
+    margin-bottom: 15px;
+  }
+  
+  .thin_card_header h4 {
+    margin-bottom: 0;
+    margin-top: 2px;
+    color: #6f42c1;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+  
+  .thin_card_body {
+    font-size: 1rem;
+    color: #012970;
+   
+  }
+  

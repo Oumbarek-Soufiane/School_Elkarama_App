@@ -1,0 +1,42 @@
+.title{
+    font-size: 18px;
+    color: var(--alkarama-primary-color);
+    font-weight: 700;
+}
+
+.program_img_conatiner {
+    position: relative;
+    overflow: hidden;
+    height: 170px;
+}
+
+.program_profile_conatiner{
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.program_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.program_img{
+    transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -ms-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+}
+
+.program_img:hover {
+    scale: 1.2;
+}
+

@@ -1,0 +1,50 @@
+.contact_container {
+    background-color: var(--alkarama-primary-color);
+    
+  }
+  
+  .titles .first_title {
+    color: var(--alkarama-white);
+    font-family: var(--alkarama-font-primary);
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .titles .second_title {
+    color: var(--alkarama-white);
+    font-family: var(--alkarama-font-primary);
+    font-size: 16px;
+  }
+  
+  .contact_form {
+    border: 1px solid var(--alkarama-white);
+    border-radius: 8px;
+  }
+  
+  .map {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+  
+  .contact_form label,
+  .contact_form input::placeholder,
+  .contact_form textarea::placeholder {
+    color: var(--alkarama-white);
+  }
+  
+  .contact_form input,
+  .contact_form textarea {
+    border: 1px solid var(--alkarama-white);
+    border-radius: 8px;
+    background-color: transparent;
+    color: var(--alkarama-white);
+    
+  }
+
+ 
+  .contact_form span {
+   color:rgb(224, 163, 163);
+    
+  }
+  

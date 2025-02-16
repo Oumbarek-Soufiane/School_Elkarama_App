@@ -1,0 +1,10 @@
+.programs_container{
+   
+    background: var(--alkarama-primary-color);
+}
+
+.programs_title{
+    font-size: 36;
+    font-weight: bold;
+    color:var(--alkarama-white);
+}
