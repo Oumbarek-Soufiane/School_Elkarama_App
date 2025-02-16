@@ -1,0 +1,57 @@
+th label{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.menuButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 26.9%;
+    color: #090909;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    background: #e8e8e8;
+    /* border: 3px solid #000000; */
+    transition: all 0.3s;
+    box-shadow: 2px 2px 2px #c5c5c5, -6px -6px 12px #ffffff;
+
+}
+
+.menuButton:active {
+    color: #fa1111;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+input[type="checkbox"] {
+    --webkit-appearance: none;
+    display: none;
+    visibility: hidden;
+}
+
+.menuButton span {
+    width: 21px;
+    height: 4px;
+    border-radius: 100px;
+    transition: 0.3s ease;
+}
+
+input[type]:checked~span.top {
+    transform: translateY(290%) rotate(45deg);
+    width: 15px;
+    background: #ff0000;
+}
+
+input[type]:checked~span.bot {
+    transform: translateY(-270%) rotate(-45deg);
+    width: 15px;
+    box-shadow: 0 0 10px #495057;
+    background: #ff0000;
+}
+
+input[type]:checked~span.mid {
+    transform: translateX(-15px);
+    opacity: 0;
+}
